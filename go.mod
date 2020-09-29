@@ -1,3 +1,3 @@
-module github.com/aarzilli/golua
+module github.com/zero_yy/golua
 
-go 1.15
+go 1.3
