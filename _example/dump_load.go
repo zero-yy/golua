@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zero_yy/golua/lua"
+	"github.com/zero-yy/golua/lua"
 )
 
 // dumpAndLoadTest: dump a function chunk to bytecodes, then load bytecodes and call function
