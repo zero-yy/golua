@@ -11,7 +11,8 @@ package lua
 #cgo lua53 CFLAGS: -I ${SRCDIR}/lua53
 #cgo llua LDFLAGS: -llua
 
-#cgo luaa LDFLAGS: -llua -lm -ldl
+// yy changed
+#cgo luaa LDFLAGS: -llua53 -lm -ldl
 #cgo luajit LDFLAGS: -lluajit-5.1
 #cgo lluadash5.1 LDFLAGS: -llua-5.1
 
